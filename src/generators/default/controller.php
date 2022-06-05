@@ -5,8 +5,7 @@
 
 use yii\helpers\StringHelper;
 use yii\db\ActiveRecordInterface;
-use yii\filters\AccessControl;
-use yii\filters\VerbFilter;
+
 
 /* @var $this yii\web\View */
 /* @var $generator yii\gii\generators\crud\Generator */
@@ -42,6 +41,8 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use \yii\web\Response;
 use yii\helpers\Html;
+use yii\filters\AccessControl;
+use yii\filters\VerbFilter;
 
 /**
  * <?= $controllerClass ?> implements the CRUD actions for <?= $modelClass ?> model.
